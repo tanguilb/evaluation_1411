@@ -27,10 +27,11 @@
             </tr>
         </tbody>
     </table>
+    <h2>Commentaires</h2>
     <ul>
     {% for comment in comments %}
         <li>{{ comment.utilisateur }}</li>
-        <li>{{ comment.commentaire }}</li>
+        <li>{{ comment.commentaires }}</li>
 
     {% endfor %}
     </ul>
